@@ -1,0 +1,31 @@
+{
+  "name": "transformer.us-city-to-us-zipcode",
+  "version": "0.0.1",
+  "description": "transformer conversion: us-city to us-zipcode",
+  "main": "index.js",
+  "transformer": "transformer.jsonld",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "transformer",
+    "transformer-conversion"
+  ],
+  "dependencies": {
+    "dat-transformer": "~0.1.5",
+    "transformer.us-zipcode": "0.0.1",
+    "transformer.us-city": "0.0.1",
+    "zippity-do-dah": "0.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbenet/transformer.us-city-to-us-zipcode.git"
+  },
+  "author": "Juan Benet <juan@benet.ai> (http://juan.benet.ai/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenet/transformer.us-city-to-us-zipcode/issues"
+  },
+  "homepage": "https://github.com/jbenet/transformer.us-city-to-us-zipcode"
+}
