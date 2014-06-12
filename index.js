@@ -1,10 +1,10 @@
-var transformer = require('dat-transformer');
-var tUsCity = transformer('us-city');
-var tUsZipcode = transformer('us-zipcode');
+var Conversion = require('transformer-conversion');
+var tUsCity = require('transformer.us-city');
+var tUsZipcode = require('transformer.us-zipcode');
 // require any other modules you may need here.
 var zipdb = require('zippity-do-dah');
 
-module.exports = transformer.Conversion(tUsCity, tUsZipcode, convert);
+module.exports = Conversion(tUsCity, tUsZipcode, convert);
 
 function convert(city) {
   var parts = city.split(',');

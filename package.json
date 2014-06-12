@@ -1,6 +1,6 @@
 {
   "name": "transformer.us-city-to-us-zipcode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "transformer conversion: us-city to us-zipcode",
   "main": "index.js",
   "transformer": "transformer.jsonld",
@@ -12,9 +12,10 @@
     "transformer-conversion"
   ],
   "dependencies": {
-    "dat-transformer": "~0.1.5",
-    "transformer.us-zipcode": "0.0.1",
+    "transformer-conversion": "^0.1.2",
+    "transformer-test": "^0.1.0",
     "transformer.us-city": "0.0.1",
+    "transformer.us-zipcode": "0.0.1",
     "zippity-do-dah": "0.0.2"
   },
   "devDependencies": {},
